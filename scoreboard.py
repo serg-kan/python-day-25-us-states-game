@@ -11,3 +11,6 @@ class Scoreboard(Turtle):
 
     def update_score(self):
         self.score += 1
+
+    def set_score(self, score):
+        self.score = score
